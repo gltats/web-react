@@ -3,11 +3,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className="d-flex h-100 text-center text-white bg-dark">
-      <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div className="App">
+    
   <header className="mb-auto">
-    <div>
-      <h3 className="float-md-start mb-0">My website</h3>
+    <div className="containerButton">
       <nav className="nav nav-masthead justify-content-center float-md-end">
         <a className="nav-link active" aria-current="page" href="#">Home</a>
         <a className="nav-link" href="#">About me</a>
@@ -17,16 +16,15 @@ function App() {
     </div>
   </header>
 
-  <main className="px-3">
+  <main className="container">
     <h1>Tatiana Sofía Gomes</h1>
     <p className="lead">Front-end developer based in Warsaw</p>
-    <p className="lead">
+    <p className="lead"></p>
     <img src={photo} className="photoImg" alt="photo"/>
-    </p>
   </main>
 
   <footer className="mt-auto text-white-50">
-    <p><a href="https://github.com/gltats/weather-react-app"
+    <p><a href="https://github.com/gltats/web-react"
          target="_blank">
           Open-source code
         </a>
@@ -34,7 +32,6 @@ function App() {
   </footer>
 </div>
 
-    </div>
   );
 }
 

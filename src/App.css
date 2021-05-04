@@ -1,19 +1,23 @@
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+.App{
+  margin: 20px 30px;
+  display: block;
+  text-align: center;
+  color: aliceblue;
 }
+
+
+.container{
+  display: inline-block;
+  border-radius: 25px;
+  background-color: rgba(1, 0, 5, 0.397);
+  margin: 20px 30px;
+  padding: 10px;
+
+}
+
 
 .photoImg{
   display: inline-block;
   max-width: 150px;
-  border-radius: 20%;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
+  border-radius: 15px 50px;
 }
