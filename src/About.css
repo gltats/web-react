@@ -1,0 +1,73 @@
+
+/* Skill Icon */
+img.skillIcon{
+    display: inline;
+    width: 30px;
+  }
+
+i.fab{
+    font-size: 30px;
+}
+
+/* Personal Photo & overlay */
+.photoContainer {
+    position: relative;
+    width: 50%;
+  }
+  
+#photoImg{
+    max-width: 20%;
+    border-radius: 5px 55px;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    right: 0;
+    background-color: #4d0b426c;
+    overflow: hidden;
+    width: 50%;
+    border-radius: 15px;
+    height: 8%;
+    transition: 3.5s ease;
+}
+
+.container:hover .overlay {
+    width: 50%;
+    top: 40%;
+    left: 45%;
+  }
+
+.myName {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Text and pictures */
+
+div.col{
+    padding-left: 0;
+    padding-right: 0;
+}
+p.text{
+    position: relative;
+    bottom: -10px;
+    padding-left: 20px;
+    padding-right: 0;
+    text-align: left;   
+}
+
+img.palace{
+    position: relative;
+    top: -10px;
+    left: -12px;
+    width: 70%;
+    border-radius: 70px 5px;
+    padding-left: 0;
+  }
