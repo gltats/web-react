@@ -71,3 +71,9 @@ img.palace{
     border-radius: 70px 5px;
     padding-left: 0;
   }
+
+.certificate{
+    display: inline;
+    margin: 4px;
+    width: 30%;
+}

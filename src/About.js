@@ -6,6 +6,9 @@ import './About.css';
 import photo from './img/tati.jpg';
 import palace from './img/palaceWarsaw.svg';
 import erasmus from './img/erasmus.svg';
+import introductiontoCodingCertificate from './img/introductiontoCodingCertificate.png';
+import FrontEndDevelopmentCertificate from './img/FrontEndDevelopmentCertificate.png';
+import ReactDevelopmentCertificate from './img/ReactDevelopmentCertificate.png';
 
 //icons
 import ps from './img/svg/photoshop.svg';
@@ -29,7 +32,9 @@ export default function About(){
                    <div className="clearfix">
                         <img src={photo} className="col-md-6 float-md-start mb-3 ms-md-3" alt="me" id="photoImg"/>
                         <div className="overlay">
-                            <div className="myName">My name is Tatiana</div>
+                            <div className="myName">
+                                My name is Tatiana
+                                </div>
                         </div>
                         <p className="textDecription">
                             <br />
@@ -41,11 +46,10 @@ export default function About(){
                        in Warsaw, Poland. 
                         </p>
                     </div>
-
                        <div className="row">
                             <div className="col">
-                            <p className="text"> I studied a Senior degree od Childhood Education, and during 
-                            my last study year, I decide to do Erasmus In Warsaw. Since there
+                            <p className="text"> I studied a Senior degree of Childhood Education, and during 
+                            my last study year, I decide to do Erasmus in Warsaw. Since there
                             I´m in this beautiful city.
                             <img src={erasmus} className="erasmus" alt="erasmus"/>
                             </p>
@@ -61,6 +65,11 @@ export default function About(){
                         own with the help of Youtube, Udemy, freeCodeCamp. As I felt it wasn´t enought
                         I enroled on SheCodes Workshops which helped me a lot.
                     </p>
+                    <img src={introductiontoCodingCertificate} className="certificate" alt="certificate"/>
+                    <img src={FrontEndDevelopmentCertificate} className="certificate" alt="certificate"/>
+                    <img src={ReactDevelopmentCertificate} className="certificate" alt="certificate"/>
+                   
+
                     <p> 
                         Currently I´m working for Huawei, as a Spanish Consultant and Manual Tester, and during my free
                         time I enjoy to code my own projects! 
