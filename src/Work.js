@@ -1,15 +1,21 @@
 import React from "react";
-
+import './Work.css';
+import FrontEnd from './FrontEnd';
+import GraphicDesign from './GraphicDesign';
+import PhotoEdition from './PhotoEdition';
 
 export default function Work(){
     return (
         <div className="Work">
                 <main className="container">
                     <h1>My projects</h1>
-                    <h4>Front-end projects:</h4>
-        
-                    
+                    <button type="button" class="btn btn-lg btn-primary">Front-end</button> 
+                    <button type="button" class="btn btn-lg btn-primary">Graphic Design</button> 
+                    <button type="button" class="btn btn-lg btn-primary">Photo Edition</button> 
                 </main>
+                <FrontEnd />
+                <GraphicDesign />
+                <PhotoEdition />
         </div>
-    );
+    );  
 }
