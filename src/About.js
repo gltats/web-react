@@ -42,9 +42,15 @@ export default function About(){
                             <br />
                             <br />
                             
-                        I'm a front-end developer originally from Spain, currently based 
+                       I'm a front-end developer with graphic design and photography edition skills originally from Spain, currently based 
                        in Warsaw, Poland. 
                         </p>
+                        <br />
+                        <p>
+                        During my formal studies I also develop myself in my hobbies Photography and Edition, 
+                        learning the bases by my own and with the help of professional photographer, <a href="https://www.instagram.com/omd_photografy/" title="Osvaldo Photographer Link"
+                            >@omd_photografy</a> .
+                    </p>
                     </div>
                        <div className="row">
                             <div className="col">
