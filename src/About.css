@@ -21,32 +21,22 @@ i.fab{
   }
   
 .overlay {
-    position: absolute;
-    top: 40%;
-    left: 100%;
-    right: 0;
-    background-color: #4d0b426c;
-    overflow: hidden;
-    width: min-content;
+    width: 60%;
     border-radius: 15px;
-    height: 8%;
+    background-color: #4d0b426c;
     transition: 3.5s ease;
+    padding: 1%;
+    margin-left: 30%;
 }
 
 .container:hover .overlay {
-    width: 50%;
-    top: 40%;
-    left: 45%;
+  background-color: #eb5bd36c;
   }
 
 .myName {
     color: white;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+   
 }
 
 /* Text and pictures */
