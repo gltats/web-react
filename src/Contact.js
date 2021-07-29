@@ -13,9 +13,15 @@ export default function Contact(){
                         <a href="tel:+48787879996">+48 787879996</a>
                          </p>
                     <h3>Or search me on:</h3>
-                    <a class="social-link" target="_blank" href="https://www.instagram.com/gl.tats/?hl=es"><i class="fab fa-instagram-square"></i></a>
-                    <a class="social-link" target="_blank" href="https://www.linkedin.com/in/tatiana-gomes-lima-1a952117a"><i class="fab fa-linkedin"></i></a>
-                    <a class="social-link" target="_blank" href="https://github.com/gltats"><i class="fab fa-github-square"></i></a>
+                    <a className="social-link" target="_blank" rel="noreferrer" href="https://www.instagram.com/gl.tats/?hl=es">
+                        <i className="fab fa-instagram-square"></i>
+                        </a>
+                    <a className="social-link" target="_blank" rel="noreferrer"  href="https://www.linkedin.com/in/tatiana-gomes-lima-1a952117a">
+                        <i className="fab fa-linkedin"></i>
+                        </a>
+                    <a className="social-link" target="_blank" rel="noreferrer" href="https://github.com/gltats">
+                        <i className="fab fa-github-square"></i>
+                        </a>
         
                     
                 </main>

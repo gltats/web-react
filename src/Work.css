@@ -1,3 +1,10 @@
 button{
     margin:5px;
 }
+
+.app-img{
+    width: 30%;
+    height: 10%;
+    border-radius: 20%;
+    margin: 2%;
+}
