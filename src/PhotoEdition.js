@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function PhotoEditon(){
+export default function PhotoEditing(){
     return (
-        <div className="PhotoEditon">
-                HI from Edition
+        <div className="PhotoEditing">
+                <h3> Photo editing projects</h3>
         </div>
     );  
 }
