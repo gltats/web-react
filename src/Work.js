@@ -1,7 +1,7 @@
 import React from "react";
 import './Work.css';
 import FrontEnd from './FrontEnd';
-import GraphicDesign from './GraphicDesign';
+import Book from './Book';
 import PhotoEdition from './PhotoEdition';
 
 export default function Work(){
@@ -14,7 +14,7 @@ export default function Work(){
                     <button type="button" className="btn btn-lg btn-primary">Photo Edition</button> 
                 </main>
                 <FrontEnd />
-                <GraphicDesign />
+                <Book />
                 <PhotoEdition />
         </div>
     );  

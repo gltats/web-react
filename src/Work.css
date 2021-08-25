@@ -1,8 +1,9 @@
+/* Front-end */
 button{
     margin:5px;
 }
 
-/* project description */
+/* Front-end project description */
 .container2 {
     display: inline;
     position: relative;
@@ -45,3 +46,16 @@ button{
     font-size: 10px;
     padding: 16px 32px;
   }
+
+  /* graphics */
+  .dj-img{
+    max-width: 60%;
+    border-radius: 5px 55px;
+  }
+  .toxicDream-img{
+    max-width: 60%;
+  }
+  .graphics-img{
+    max-width: 10%
+  }
+
