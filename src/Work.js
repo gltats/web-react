@@ -4,6 +4,7 @@ import FrontEnd from './FrontEnd';
 import Book from './Book';
 import PhotoEdition from './PhotoEdition';
 
+
 export default function Work(){
     return (
         <div className="Work">
@@ -16,6 +17,7 @@ export default function Work(){
                 <FrontEnd />
                 <Book />
                 <PhotoEdition />
+                
         </div>
     );  
 }

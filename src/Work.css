@@ -47,15 +47,70 @@ button{
     padding: 16px 32px;
   }
 
-  /* graphics */
+  /* graphics img*/
   .dj-img{
     max-width: 60%;
     border-radius: 5px 55px;
   }
   .toxicDream-img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
     max-width: 60%;
   }
-  .graphics-img{
-    max-width: 10%
+  .bold-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 40%
+  }
+  .girlWheelsChair-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 40%
+  }
+  .girlBrown-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 27%
+  }
+  .indianSmile-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 22%
+  }
+  .libro-img{
+    display: block;
+    margin: 0 auto;
+    max-width: 60%
   }
 
+  /* graphics book*/
+ 
+
+ div .booklet-current-left, div .booklet-current-right, div .booklet-next-left, div .booklet-next-right, div .booklet-previous-left, div .booklet-previous-right {
+    background-color: #cbb9f5;
+    overflow: hidden;
+}
+
+footer.footer1{
+  position: absolute;
+  bottom: 0;
+  font-weight: bolder;
+  color: black;
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: black;
+  font-size: 12px;
+  
+}
+
+footer.footer2{
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: black;
+}
