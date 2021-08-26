@@ -63,8 +63,8 @@ class UsingBookletComponent extends Component {
                 />
 
                 <div className="button-container">
-                    <button type="button" class="btn btn-secondary btn-sm" onClick={this.flipPageIndexBack}>Prev Pages</button>
-                    <button type="button" class="btn btn-secondary btn-sm" onClick={this.flipPageIndexForward}>Next Pages</button>   
+                    <button type="button" className="btn btn-secondary btn-sm" onClick={this.flipPageIndexBack}>Prev Pages</button>
+                    <button type="button" className="btn btn-secondary btn-sm" onClick={this.flipPageIndexForward}>Next Pages</button>   
                 </div>
             </div>
         );
